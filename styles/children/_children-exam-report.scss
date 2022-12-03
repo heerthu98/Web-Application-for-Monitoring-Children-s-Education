@@ -1,0 +1,144 @@
+.exam-report-sec {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: calc(100vh - 50px);
+    width: calc(100vw - 250px);
+    padding: 20px 0 40px 0;
+    overflow-x: hidden;
+}
+
+.top-btn-container {
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.top-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    color: #fff;
+    text-decoration: none;
+    background: #009999;
+}
+
+.exam-report {
+    margin: auto;
+    width: 1050px;
+    min-height: 500px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.exam-report-sec .exam-report .heading {
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+    background-color: #009999;
+}
+
+.exam-report-sec .exam-report .heading h3 {
+    color: #fff;
+    font-size: 28px;
+}
+
+.exam-report-sec .exam-report .exam-row {
+    position: relative;
+    padding: 10px 0;
+}
+
+.exam-row form {
+    display: flex;
+    align-items: center;
+}
+
+.exam-report-sec .exam-report .exam-row .exam-form-container {
+    display: flex;
+    align-items: center;
+}
+
+.exam-report-sec .exam-report .exam-row label {
+    color: #555;
+    padding: 20px;
+}
+
+.exam-report-sec .exam-report .exam-row .exam-form-container .exam-select,
+.btn-save {
+    padding: 8px 15px;
+    border-radius: 4px;
+    background: #32BCAC;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.btn-save {
+    margin-left: 40px;
+}
+
+.btn-save:hover {
+    background-color: #20746a;
+}
+
+.exam-rank {
+    position: absolute;
+    right: 20px;
+    width: 200px;
+    margin-top: 30px;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.stat h6 {
+    padding: 8px 15px;
+    height: 34px;
+    border-radius: 4px;
+    background: #32BCAC;
+    color: #fff;
+    width: 80px;
+    font-size: 18px;
+}
+
+.exam-report-sec table {
+    margin: 30px 50px;
+    padding: 20px;
+    width: 70%;
+    border-collapse: collapse;
+}
+
+.exam-report-sec table th {
+    padding: 8px 15px;
+    color: #fff;
+    background: #009999;
+}
+
+.exam-report-sec table tr td:nth-child(2) {
+    text-align: center;
+}
+
+.exam-report-sec table td {
+    padding: 8px 15px;
+    color: #555;
+}
+
+.exam-report-sec table th td {
+    border: 1px solid black;
+}
+
+.exam-report-sec table tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.exam-report-sec table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+// second form

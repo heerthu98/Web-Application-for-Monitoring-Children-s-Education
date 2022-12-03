@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.chatbox-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: calc(100vh - 50px);
+    width: calc(100vw - 250px);
+    padding: 20px 0 40px 0;
+    overflow-x: hidden;
+}
+
+.chatbox-container .chatbox {
+    position: relative;
+    padding-bottom: 25%;
+    margin: auto;
+    width: 1050px;
+    height: 680px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chatbox-container .chatbox .heading {
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+    background-color: #009999;
+}
+
+.chatbox-container .chatbox .heading h3 {
+    font-size: 28px;
+    color: #fff;
+}
+
+.chatbox-container .chatbox .content-teacher {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.select-teacher label {
+    padding: 5px 10px 5px 0;
+    color: #555;
+    font-weight: 600;
+}
+
+.content-teacher select {
+    padding: 8px 15px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background: #32BCAC;
+    color: #fff;
+    cursor: pointer;
+}
+
+.chat-box-wrap {
+    max-height: 410px;
+    overflow-y: scroll;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.type-msg {
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    width: 100%;
+    height: 20%;
+}
+
+.type-msg textarea {
+    width: 100%;
+    height: 60px;
+    outline: none;
+    border: none;
+    padding: 5px 15px;
+}
+
+.type-msg #submit {
+    padding: 10px 10px;
+    display: inline-block;
+    width: 1050px;
+    font-size: 20px;
+    background: #147070;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 0 0 10px 10px;
+}
+
+.view-msg {
+    width: 100%;
+    padding: 20px;
+}
+
+.view-msg table {
+    width: 100%;
+}
+
+.view-msg table tr td:nth-child(1) {
+    text-align: left;
+    color: #444;
+    padding: 5px 20px;
+    margin: 10px 20px;
+}
+
+.view-msg table tr td:nth-child(2) {
+    text-align: right;
+    color: #009999;
+    padding: 5px 20px;
+    margin: 10px 20px;
+}

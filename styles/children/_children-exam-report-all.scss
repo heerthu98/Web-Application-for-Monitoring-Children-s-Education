@@ -1,0 +1,122 @@
+.exam-report-sec-all {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: calc(100vh - 50px);
+    width: calc(100vw - 250px);
+    padding: 20px 0 40px 0;
+    overflow-x: hidden;
+}
+
+.class-report-button {
+    margin-left: 100px;
+    position: relative;
+}
+
+.class-report-button .btn-save {
+    background: #25897E;
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 45px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.class-report {
+    padding-bottom: 20px;
+    margin: auto;
+    width: 1050px;
+    min-height: 500px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.class-report .heading {
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+    background-color: #009999;
+}
+
+.class-report .heading h3 {
+    color: #fff;
+    font-size: 28px;
+}
+
+.class-report .class-exam-row {
+    position: relative;
+    padding: 10px 0;
+}
+
+.class-report .class-exam-row form {
+    display: flex;
+    align-items: center;
+}
+
+.exam-report-sec-all .class-report .class-exam-row .class-exam-form-container {
+    display: flex;
+    align-items: center;
+}
+
+.exam-report-sec-all .class-report .class-exam-row label {
+    color: #555;
+    padding: 20px;
+}
+
+.exam-report-sec-all .class-report .class-exam-row .class-exam-form-container .class-exam-select {
+    padding: 8px 15px;
+    border-radius: 4px;
+    background: #32BCAC;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.exam-report-sec-all table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.exam-report-sec-all table th {
+    padding: 8px 5px;
+    font-size: 14px;
+    color: #fff;
+    background: #009999
+}
+
+.exam-report-sec-all table td {
+    padding: 8px 5px;
+    color: #555;
+}
+
+.exam-report-sec-all table tr td:nth-child(2),
+.exam-report-sec-all table tr td:nth-child(3),
+.exam-report-sec-all table tr td:nth-child(4),
+.exam-report-sec-all table tr td:nth-child(5),
+.exam-report-sec-all table tr td:nth-child(6),
+.exam-report-sec-all table tr td:nth-child(7),
+.exam-report-sec-all table tr td:nth-child(8),
+.exam-report-sec-all table tr td:nth-child(9),
+.exam-report-sec-all table tr td:nth-child(10),
+.exam-report-sec-all table tr td:nth-child(11) {
+    text-align: center;
+}
+
+.exam-report-sec-all table th td {
+    border: 1px solid black;
+}
+
+.exam-report-sec-all table tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.exam-report-sec-all table tr:nth-child(odd) {
+    background-color: #fff;
+}

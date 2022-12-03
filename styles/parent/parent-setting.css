@@ -1,0 +1,139 @@
+body {
+  background-color: #F9F9FA;
+  position: relative;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #2c8374;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: left 500ms;
+  transition: left 500ms;
+}
+
+.top .logo {
+  color: #E4F3F1;
+}
+
+.logo span {
+  margin-top: 15px;
+  position: absolute;
+  padding-left: 0.5rem;
+  font-size: 20px;
+}
+
+.top li {
+  position: absolute;
+  margin-right: 600px;
+  -webkit-transition: margin-left 500ms;
+  transition: margin-left 500ms;
+}
+
+.search-wrapper {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.search-wrapper .search {
+  background-color: #e6e9e8;
+  color: black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #e6e9e8;
+  padding: 12px 24px;
+  border-radius: 5px;
+  padding-left: 2.5rem;
+}
+
+.search-wrapper .fa-search {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  text-align: center;
+  pointer-events: none;
+  color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 15px;
+  padding-left: 0.5rem;
+}
+
+.social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social-icons {
+  height: 38px;
+  width: 38px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin-right: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FBFBFB;
+}
+
+.social-icons .log {
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.side {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #E4F3F1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  color: #6A8581;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+.side a span:last-child {
+  padding-left: 1rem;
+}
+
+li a:hover:not(.active) {
+  background-color: #2c8374;
+  color: white;
+}
+/*# sourceMappingURL=parent-setting.css.map */

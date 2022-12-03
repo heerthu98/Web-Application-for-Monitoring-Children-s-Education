@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web Application For Monitoring Children Education</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <section class="sub-header">
+       <nav>
+           <a href="index.html"><img src="img/logo.png"></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+       <h1>Contact Us</h1>
+   </section>
+       <!------- contact us content ------->  
+       <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.4536878507647!2d80.40716351541599!3d9.381517385949572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afe94e2ca1aa405%3A0xd43ddc10d94cd006!2zS24vIEtpbGlub2NoY2hpIE1hdGh5YSBNYWhhIFZpZHlhbGF5YW0gLSDgrpXgrr_grrPgrr8v4K6V4K6_4K6z4K6_4K6o4K-K4K6a4K-N4K6a4K6_IOCuruCupOCvjeCupOCuv-CuryDgrq7grpXgrr4g4K614K6_4K6k4K-N4K6k4K6_4K6v4K6-4K6y4K6v4K6u4K-N!5e0!3m2!1sen!2slk!4v1624168096667!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+       </section>
+       <scetion class="contact-us">
+           <div class="row">
+               <div class="contact-col">
+                   <div>
+                    <i class="fas fa-home"></i>
+                    <span>
+                        <h5>Kilinochchi, Kilinochchi District</h5>
+                         <p>Monday to saturday, 10am to 6 pm</p>
+                    </span>
+                   </div>
+                   <div>
+                    <i class="fas fa-phone-volume"></i>
+                    <span>
+                        <h5>0212 285 414</h5>
+                         <p>Northern Province, Sri Lanka</p>
+                    </span>
+                   </div>
+                   <div>
+                    <i class="fas fa-envelope-square"></i>
+                    <span>
+                        <h5>kilinochchimv@yahoo.com</h5>
+                         <p>Email us your query</p>
+                    </span>
+                   </div>
+
+               </div>
+               <div class="contact-col">
+                   <form action="form-handler.php" method="POST">
+                       <input type="text" name="name" placeholder="Enter your name" required>
+                       <input type="email" name="email" placeholder="Enter email address" required>
+                       <input type="text" name="subject" placeholder="Enter your subject" required>
+                       <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                       <button type="submit" class="hero-btn red-btn">Send Message</button>
+                   </form>
+            </div>
+           </div>
+       </scetion>
+
+      <!------- Footer ------->
+      <section class="footer">
+        <h4>About Us</h4>
+        <p>we are offering a platform for teacher, parents and children. <br>They can collaborate with our applications to encourage the student education.</p>
+        <div class="icons">
+          <i class="fab fa-facebook" ></i>
+          <i class="fab fa-twitter" ></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> by Brand Name </p>
+    </section>
+
+   <!------- javaScript for Toggle menu ------->
+   <script>
+       var navLinks = document.getElementById("navLinks");
+       function showMenu(){
+           navLinks.style.right ="0";
+       }
+       function hideMenu(){
+           navLinks.style.right ="-200px";
+       }
+
+   </script>
+</body>
+</html>

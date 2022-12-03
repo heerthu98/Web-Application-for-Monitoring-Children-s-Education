@@ -1,0 +1,96 @@
+@import"teacher-dashboard";
+@import"teacher-student";
+@import"teacher-attendance";
+@import"teacher-exam";
+@import"teacher-settings";
+
+
+.top{
+    position: absolute;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: $Main_color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: left 500ms;
+}
+.top .logo{
+    color: #E4F3F1;
+}
+.logo span{
+    margin-top: 15px;
+    position: absolute;
+    padding-left:0.5rem;
+    font-size: 20px;
+}
+.top li{
+    position: absolute;
+    margin-right: 600px;
+    transition: margin-left 500ms;
+}
+.search-wrapper{
+        width: 50%;
+        margin: 50px auto;
+}
+        
+.search-wrapper .search {
+    background-color: #e6e9e8;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    border: 1px solid #e6e9e8;
+    padding: 12px 24px;
+    border-radius: 5px;
+    padding-left: 2.5rem;
+}
+
+.search-wrapper .fa-search {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    text-align: center;
+    pointer-events: none;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    top:15px;
+    padding-left:0.5rem;
+}
+.social-icons {
+    display: flex;
+}
+
+
+
+
+.side{
+    position: absolute;
+    top:60px;
+    left: 0;
+   height: 100%;
+   width: 250px;
+   background-color:#E4F3F1;
+}
+
+.side ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  .side li a {
+    display: block;
+    color: #85796a;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+
+  .side a span:last-child {
+    padding-left: 1rem;
+}
+
+  .side li a:hover:not(.active) {
+    background-color: $Main_color;
+    color: white;
+  }

@@ -1,0 +1,66 @@
+$backgroundcolor:#F9F9FA;
+$Main_color:#2c8374;
+$text_color:white;
+body{
+	background-color: #F9F9FA;
+    position: relative;
+}
+
+  .con {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-left: 350px;
+    flex-flow: column;
+    gap: 30px;
+  }
+  .user_Information{
+    background-color:#adb5bd;
+    padding: 10px;
+  }
+  .con .change_password {
+    background-color: #cec2c2;
+    font-size: 15px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #cfcfcf;
+    border-bottom: 3px solid #ccc;
+    border-radius:5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+ }
+ .con .btn {
+    font-size: 1.0625em;
+    display: inline-block;
+    padding: 0.74em 2em;
+    color: #fff;
+    border-width: 0 0 0 0;
+    border-radius:5px;
+    text-transform: uppercase;
+    background-color: #800f2f;
+    border-bottom-color: #f8f9fa;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    box-shadow: 1px 1px 4px #ccc;
+    -moz-box-shadow: 1px 1px 4px #ccc;
+    -webkit-box-shadow: 1px 1px 4px #ccc;
+    margin-left:360px;
+  }
+  
+  .con .btn:hover {
+    background-color: #a53860;
+  }
+  
+  .con input[type=text], .con input[type=password], .con input[type=email],.con input[type=date],.con input[type=number]{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: #f5f3f4;
+  }
+  
+  .user_Information h3{
+    color: #1f7a8c;
+    text-align: center;
+    font-weight: bold;
+  }

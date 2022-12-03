@@ -1,0 +1,39 @@
+
+
+.exam-report_student{
+    padding:20px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 55px;
+    margin-left: 280px;  
+    flex-flow: column;
+    width: 1050px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.heading_1{
+    padding:20px;
+    background-color: #264653;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.status_student{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.status_student .Rank_1 ,.status_student .Total_1,.status_student .Avg_1{
+    padding: 8px 15px;
+    height: 34px;
+    border-radius: 4px;
+    background: #f3722c;
+    color: #fff;
+    width: 80px;
+    font-size: 18px;
+}

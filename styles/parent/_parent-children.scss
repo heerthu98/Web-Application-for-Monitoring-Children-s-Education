@@ -1,0 +1,117 @@
+$backgroundcolor:#F9F9FA;
+$Mainr_color:#4AA899;
+$text_color:white;
+
+body{
+	background-color: $backgroundcolor;
+    position: relative;
+}
+
+.cons{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 65px;
+    margin-left: 280px;   
+}
+
+a{
+    color :inherit;
+  }
+
+  #table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #table th {
+    height: 50px;
+    background-color:#a5a58d;
+    color: white;
+  }
+
+  #table td{
+      background-color: #e8d7d6;
+  }
+
+  #table button{
+      background-color: #401f3e;
+      color: white;
+      width: 150px;
+  }
+
+
+.img{
+  margin-left: 400px;
+  
+}
+
+.Form2 h2{
+text-align: center;
+color: darkblue;
+}
+
+.Form2 {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.form_container_children {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 50px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.form_container select{
+   color: black;
+   background-color: #ddd;
+   width: 30%;
+}
+
+.form_container_children input[type=text] ,.form_container_children input[type=password],.form_container_children input[type=email],.form_container_children input[type=date] ,.form_container_children input[type=number]    {
+  width: 65%;
+  padding: 15px;
+  border: none;
+  background: #f1f1f1;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+}
+
+.form_container_children input:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form_container_children .btn {
+  background-color: #5f0f40;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 93%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}

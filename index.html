@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web Application For Monitoring Children Education</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   <section class="header">
+       <nav>
+           <a href="index.html"><img src="img/3D.png"></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="about.html">About us</a></li>
+                   <li><a href="pages/login.php">Login</a></li>
+                   <li><a href="contact.html">Contact</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+       <div class="text-box">
+           <h1>Monitoring Children Education</h1>
+           <p>A brighter future of every child is in parent’s hand.<br>Positive parenting techniques work well for raising children <br>with discipline and good moral values and are every parent’s dream.</p>
+           <a href="" class="hero-btn">Visit us To Know More</a>
+       </div>
+   </section>
+   <!----scope-->
+   <section class="scope">
+       <h1>Why Choose Us?</h1>
+       <div class="row">
+           <div class="scope-col">
+               <h3>Learn under parents monitor</h3>
+               <p>We provide a platform for Parents, teachers and children to ensure the happiness of child along with enormous learning. Positive parenting techniques work well for raising children with discipline and good moral values and are every parent’s dream.</p>
+           </div>
+           <div class="scope-col">
+            <h3>Parent can Inspects the results</h3>
+            <p>Parent can inspect the result of exams and attendance. Parent can track child’s teacher transmits grades at the outset of the school year and can consistent in tracking performances.</p>
+        </div>
+        <div class="scope-col">
+            <h3>Encourage self learning</h3>
+           <p>we are providing motivation for students to upgrade their educational level by themselves by representing their growth of marks in a graphs and charts</p>
+        </div>
+       </div>
+   </section>
+   <!------- call to action ------->
+   <section class="cta">
+       <h1>Anyone Can Use Our Web Application <br> Anywhere From The World</h1>
+       <a href="" class="hero-btn">CONTACT US</a>
+   </section>
+      <!------- Footer ------->
+      <section class="footer">
+          <h4>About Us</h4>
+          <p>we are offering a platform for teacher, parents and children. <br>They can collaborate with our applications to encourage the student education.</p>
+          <div class="icons">
+            <i class="fab fa-facebook" ></i>
+            <i class="fab fa-twitter" ></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+          </div>
+          <p>Made with <i class="far fa-heart"></i> by Brand Name </p>
+      </section>
+
+   <!------- javaScript for Toggle menu ------->
+   <script>
+       var navLinks = document.getElementById("navLinks");
+       function showMenu(){
+           navLinks.style.right ="0";
+       }
+       function hideMenu(){
+           navLinks.style.right ="-200px";
+       }
+
+   </script>
+</body>
+</html>

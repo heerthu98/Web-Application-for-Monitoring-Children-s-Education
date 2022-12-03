@@ -1,0 +1,48 @@
+$backgroundcolor:#F9F9FA;
+$Main_color:#4AA899;
+$text_color:white;
+
+body {
+  background-color: #F9F9FA;
+  position: relative;
+}
+
+.flex_con{
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-top: 55px;
+  margin-left: 300px;
+  gap:70px;  
+}
+.attend_get{
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px 40px;
+  background-color: #f1f1f1;
+}
+
+.attend_total input[type=text] ,.attend_total input[type=password],.attend_total input[type=email],.attend_total input[type=date] ,.attend_total input[type=number]    {
+  width: 45%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.attend_total input:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+input[type=submit]  {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}

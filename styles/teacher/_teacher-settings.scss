@@ -1,0 +1,107 @@
+$backgroundcolor:#F9F9FA;
+$Main_color:#4AA899;
+$text_color:white;
+
+body {
+  background-color: #F9F9FA;
+  position: relative;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+
+.sec_2{
+  margin-left: 300px;
+  margin-right: 50px;
+}
+
+.sec_2 .profilesection{
+  display: flex;
+  margin-top: 70px;
+  background-color: #C2EFE9;
+  border-radius: 4px;
+  box-shadow: 0px 10px 20px 0px rgb(229 229 229 / 75%);
+  width: 100%;
+  min-height: 460px;
+}
+.sec_2 .profilesection .heading h3{
+  margin-top: 30px;
+  display: flex;
+  margin-left: 80px;
+  font-size: 18px;
+}
+
+.profilesection .editprofile{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.profilesection .editprofile_1{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 500px;
+}
+
+.profilesection .editprofile label{
+  font-size: 18px;
+  margin-left: 30px ;
+}
+
+.profilesection .editprofile_1 label{
+  font-size: 18px;
+  margin-left: 30px ;
+}
+.profilesection .editprofile input[type=text],input[type=number] .profilesection .editprofile_1 input[type=text],input[type=password],input[type=email],input[type=number] {
+  float: none;
+  color: #6A8581;
+  padding: 12px 16px;
+  display: block;
+  box-sizing: border-box;
+  background: none;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  width: 300px;
+  height: 20px;
+  border: none;
+  border-bottom: 1px solid rgb(147, 200, 214);;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+.profilesection .editprofile input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=number]:focus .profilesection .editprofile_1 input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=number]:focus {
+  border-bottom: 2px solid#3498db;
+  border-bottom-right-radius: 20px;
+  color: #3498db;
+  transition: 0.1 ease;
+}
+
+.send-btn1, .reset-btn1{
+  border: 1px solid #6A8581;
+  background-color: #4AA899;
+  font-size: 18px;
+  color: white;
+  height: 40px;
+  width: 420px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.send-btn1:hover, .reset-btn1:hover {
+  transform: scale(0.9);
+}
+
+.profilesection .editbutton{
+  margin-top: 400px;
+}
+
+.profilesection .editbutton .send-btn1{
+  margin-left: -200px;
+  }

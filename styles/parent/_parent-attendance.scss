@@ -1,0 +1,49 @@
+.flex_attendance{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 55px;
+    margin-left: 300px;  
+    flex-flow: column;
+}
+.attendance{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    gap: 30px;
+  
+}
+.attendance_data{
+    margin: 1em 0;
+    width: 100%;
+    overflow: hidden;  
+    background:#FFF;
+    //color: #231942;
+    border-radius: 2px;
+    border: 1px solid #FFF;
+}
+ table {
+    width:500px !important;
+    height:75px !important;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 16px;
+    
+  }
+.chart{
+    margin-top: 55px;
+    margin-left: 300px; 
+    margin-right: 50px; 
+    color: #ce4257;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
